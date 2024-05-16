@@ -1,4 +1,4 @@
-#Read version from installed package
+# Read version from installed package
 from importlib.metadata import version
 
-__version__=version("sluarch")
+__version__ = version('sluarch')
