@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "sluarch"
+version = "2024.05.16"
+description = "SlµArch (Sleep MicroArchitecture: open-source Python package to analyse sleep microarchitecture."
+authors = ["Simon J. Guillot"]
+license = "Apache License 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+[tool.semantic_release]
+version_toml = [
+	"pyproject.toml:tool.poetry.version",
+]                                                    # version location
+branch = "main"                                      # branch to make releases of
+changelog_file = "CHANGELOG.md"                      # changelog file
+build_command = "pip install poetry && poetry build" # build dists 
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
