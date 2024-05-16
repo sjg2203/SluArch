@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "sluarch"
 version = "2024.05.16"
-description = "SlµArch (Sleep MicroArchitecture: open-source Python package to analyse sleep microarchitecture."
+description = "SlµArch (Sleep MicroArchitecture): open-source Python package to analyse sleep microarchitecture."
 authors = ["Simon J. Guillot"]
 license = "Apache License 2.0"
 readme = "README.md"
