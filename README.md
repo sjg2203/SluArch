@@ -7,7 +7,7 @@
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/SluArch.svg?logo=python)](https://pypi.python.org/pypi/SluArch)
 [![License](https://img.shields.io/github/license/sjg2203/SluArch?logo=apache)](https://github.com/sjg2203/SluArch/blob/main/LICENSE)
 [![Security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
-[![PyPI - Status](https://img.shields.io/pypi/status/SlµArch)](https://pypi.python.org/pypi/SlµArch)
+[![PyPI - Status](https://img.shields.io/pypi/status/SluArch)](https://pypi.python.org/pypi/SluArch)
 [![Hit](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Fsjg2203%2FSluArch.svg&color=red)](http://hits.dwyl.com/sjg2203/SluArch)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
