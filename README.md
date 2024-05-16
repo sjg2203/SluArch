@@ -13,7 +13,7 @@
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![codecov](https://codecov.io/gh/sjg2203/sluarch/branch/main/graphs/badge.svg)](https://codecov.io/github/sjg2203/sluarch)
 
-# [SlµArch](https://github.com/sjg2203/SluArch) (Sleep MicroArchitecture): a Python package to analyse sleep microarchitecture.
+[SlµArch](https://github.com/sjg2203/SluArch) (Sleep MicroArchitecture): a Python package to analyse sleep microarchitecture.
 
 The toolbox is optimised for Python 3.10 and above and was tested on both Windows and macOS ARM.
 
@@ -46,17 +46,12 @@ To install the toolbox, use:
   conda [![Board Status](https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ssp_detector-feedstock?branchName=main)](https://anaconda.org/conda-forge/SleeVop)
 
 ```python
-conda
-install-c
-cf-staging
-sluarch
+conda install -c cf-staging sluarch
 ```
 
 - Using
   pip [![Pypi package](https://github.com/sjg2203/SleeVop/actions/workflows/pypi_publish.yml/badge.svg?branch=main)](https://github.com/sjg2203/SleeVop/actions/workflows/pypi_publish.yml) [![PyPI - Wheel](https://img.shields.io/pypi/wheel/SleeVop)](https://pypi.python.org/pypi/SleeVop)
 
 ```python
-pip
-install
-sluarch
+pip install sluarch
 ```
