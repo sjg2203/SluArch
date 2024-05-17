@@ -2,7 +2,7 @@
 
 <img src="./docs/SluArch_logo.png" width="300"/>
 
-[![PyPI - Version](https://img.shields.io/pypi/v/SleeVop?logo=pypi)](https://pypi.python.org/pypi/SluArch)
+[![PyPI - Version](https://img.shields.io/pypi/v/SluArch?logo=pypi)](https://pypi.python.org/pypi/SluArch)
 [![Conda (channel only)](https://img.shields.io/conda/vn/conda-forge/SluArch?logo=anaconda&color=green)](https://anaconda.org/conda-forge/SluArch)
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/SluArch.svg?logo=python)](https://pypi.python.org/pypi/SluArch)
 [![License](https://img.shields.io/github/license/sjg2203/SluArch?logo=apache)](https://github.com/sjg2203/SluArch/blob/main/LICENSE)
@@ -28,7 +28,7 @@ If you use this package, please cite as follows:
 
 ## Contribution [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/sjg2203/SluArch/issues)
 
-This package were created and maintained by SJG.
+This package was created and maintained by SJG.
 
 Contributions are welcome, so feel free to submit a [pull request](https://github.com/sjg2203/SluArch/pulls)!
 
