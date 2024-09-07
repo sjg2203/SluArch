@@ -1,0 +1,34 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: SlµArch
+message: >-
+  If you use this package, please cite as follows:  Guillot,
+  S.J. (2024). SlµArch (2024.05.16). GitHub, Zenodo.
+  https://doi.org/10.5281/zenodo.11204061
+type: software
+authors:
+  - given-names: Simon J
+    family-names: Guillot
+    email: simon.guillot@inserm.fr
+    affiliation: INSERM
+    orcid: 'https://orcid.org/0000-0002-1623-7091'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.11204061
+    description: Zenodo
+repository-code: 'https://github.com/sjg2203/SluArch'
+abstract: >-
+  SlµArch (Sleep MicroArchitecture): a Python package to
+  analyse sleep microarchitecture.
+keywords:
+  - Sleep
+  - Microarchitecture
+  - Sleep spindles
+  - Slow oscillations
+  - K-complex
+license: Apache-2.0
+commit: 21b9ae3
+version: v2024.05.16
+date-released: '2024-05-16'
