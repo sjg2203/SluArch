@@ -2,12 +2,12 @@
 
 <img src="./docs/SluArch_logo.png" width="300"/>
 
-[![PyPI - Version](https://img.shields.io/pypi/v/SluArch?logo=pypi)](https://pypi.python.org/pypi/SluArch)
-[![Conda (channel only)](https://img.shields.io/conda/vn/conda-forge/SluArch?logo=anaconda&color=green)](https://anaconda.org/conda-forge/SluArch)
-[![PyPI pyversions](https://img.shields.io/pypi/pyversions/SluArch.svg?logo=python)](https://pypi.python.org/pypi/SluArch)
-[![License](https://img.shields.io/github/license/sjg2203/SluArch?logo=apache)](https://github.com/sjg2203/SluArch/blob/main/LICENSE)
+[![PyPI - Version](https://img.shields.io/pypi/v/sluarch?logo=pypi)](https://pypi.python.org/pypi/sluarch)
+[![Conda (channel only)](https://img.shields.io/conda/vn/conda-forge/sluarch?logo=anaconda&color=green)](https://anaconda.org/conda-forge/sluarch)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/sluarch.svg?logo=python)](https://pypi.python.org/pypi/sluarch)
+[![License](https://img.shields.io/pypi/l/sluarch?logo=apache)](https://github.com/sjg2203/SluArch/blob/main/LICENSE)
 [![Security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
-[![PyPI - Status](https://img.shields.io/pypi/status/SluArch)](https://pypi.python.org/pypi/SluArch)
+[![PyPI - Status](https://img.shields.io/pypi/status/sluarch)](https://pypi.python.org/pypi/sluarch)
 [![Hit](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Fsjg2203%2FSluArch.svg&color=red)](http://hits.dwyl.com/sjg2203/SluArch)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
@@ -41,14 +41,14 @@ Note that this program is provided with NO WARRANTY OF ANY KIND under Apache 2.0
 To install the toolbox, use:
 
 - Using
-  conda [![Board Status](https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sluarch-feedstock?branchName=main)](https://anaconda.org/conda-forge/SluArch)
+  conda [![Board Status](https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sluarch-feedstock?branchName=main)](https://anaconda.org/conda-forge/sluarch)
 
 ```python
 conda install conda-forge::sluarch
 ```
 
 - Using
-  pip [![Pypi package](https://github.com/sjg2203/SluArch/actions/workflows/pypi_publish.yml/badge.svg?branch=main)](https://github.com/sjg2203/SluArch/actions/workflows/pypi_publish.yml) [![PyPI - Wheel](https://img.shields.io/pypi/wheel/SluArch)](https://pypi.python.org/pypi/SluArch)
+  pip [![Pypi package](https://github.com/sjg2203/SluArch/actions/workflows/pypi_publish.yml/badge.svg?branch=main)](https://github.com/sjg2203/SluArch/actions/workflows/pypi_publish.yml) [![PyPI - Wheel](https://img.shields.io/pypi/wheel/SluArch)](https://pypi.python.org/pypi/sluarch)
 
 ```python
 pip install sluarch
