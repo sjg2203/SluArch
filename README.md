@@ -13,10 +13,10 @@
 
 [SlµArch](https://github.com/sjg2203/SluArch) (Sleep MicroArchitecture): a Python package to analyse sleep microarchitecture.
 
-This package is optimised for Python 3.10 and above and was tested on both Windows and macOS ARM.
+This package is optimised for Python 3.10+ and was tested on both Windows and macOS.
 
 > [!NOTE]
-> All dependencies are listed in [requirements](docs/requirements.txt), Python 3.10 minimum.
+> All dependencies are listed in [requirements](docs/requirements.txt), Python 3.10+.
 
 ## Citation [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11204061.svg)](https://doi.org/10.5281/zenodo.11204061)
 
@@ -36,7 +36,7 @@ To report a bug, please open a new [issue](https://github.com/sjg2203/SluArch/is
 
 Note that this program is provided with NO WARRANTY OF ANY KIND under Apache 2.0 [license](LICENSE).
 
-## Installation of Python package
+## Installation
 
 To install the toolbox, use:
 
@@ -44,7 +44,7 @@ To install the toolbox, use:
   conda [![Board Status](https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sluarch-feedstock?branchName=main)](https://anaconda.org/conda-forge/SluArch)
 
 ```python
-conda install -c cf-staging sluarch
+conda install conda-forge::sluarch
 ```
 
 - Using
