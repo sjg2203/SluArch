@@ -40,13 +40,13 @@ If you are proposing a feature:
 
 ## Get Started!
 
-Ready to contribute? Here's how to set up `sleevop` for local development.
+Ready to contribute? Here's how to set up `SlµArch` for local development.
 
 1. Download a copy of `SlµArch` locally.
-2. Install `sleevop` using `poetry`:
+2. Install `SlµArch` using `poetry`:
 
     ```console
-    $ poetry install
+    $ poetry install sluarch
     ```
 
 3. Use `git` (or similar) to create a branch for local development and make your changes:
