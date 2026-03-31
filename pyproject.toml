@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "sluarch"
-version = "2024.05.16"
+version = "0.1.0"
 description = "SlµArch (Sleep MicroArchitecture): open-source Python package to analyse sleep microarchitecture."
-authors = [{ name = "Simon J. Guillot", email = "simon.guillot@inserm.fr" }]
-maintainers = [{ name = "Simon J. Guillot", email = "simon.guillot@inserm.fr" }]
-Home-page = ["https://github.com/sjg2203/SluArch"]
-license = "Apache License 2.0"
+authors = [{ name = "Simon J. Guillot", email = "58807831+sjg2203@users.noreply.github.com" }]
+maintainers = [{ name = "Simon J. Guillot", email = "58807831+sjg2203@users.noreply.github.com" }]
+license = "Apache-2.0"
 requires-python = ">=3.10"
-classifiers = ["Development Status :: 5 - Production/Stable",
+classifiers = [
+	"Development Status :: 5 - Production/Stable",
 	"Intended Audience :: Science/Research",
 	"License :: OSI Approved :: Apache Software License",
 	"Operating System :: Unix",
@@ -17,25 +17,33 @@ classifiers = ["Development Status :: 5 - Production/Stable",
 	"Programming Language :: Python :: 3",
 	"Programming Language :: Python :: 3.10",
 	"Programming Language :: Python :: 3.11",
-	"Programming Language :: Python :: 3.12",]
-dependencies = ["mne>=1.6.0",
-	"outdated",
+	"Programming Language :: Python :: 3.12",
+	"Programming Language :: Python :: 3.13",
+	"Programming Language :: Python :: 3.14",
+]
+dependencies = [
+	"mne>=1.6.0",
 	"numpy>=1.25.0",
 	"pandas>=2.2.0",
-	"scipy>=1.12.0",]
+	"scipy>=1.12.0",
+]
 readme = "README.md"
 
-[tool.poetry.dependencies]
-python = "^3.10"
+[tool.poetry.urls]
+Homepage = "https://github.com/sjg2203/SluArch"
+Repository = "https://github.com/sjg2203/SluArch"
+Issues = "https://github.com/sjg2203/SluArch/issues"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.dependencies]
+python = ">=3.10"
+
 [tool.semantic_release]
 version_toml = [
 	"pyproject.toml:tool.poetry.version",
 ]                                                    # version location
 branch = "main"                                      # branch to make releases of
 changelog_file = "CHANGELOG.md"                      # changelog file
-build_command = "pip install poetry && poetry build" # build dists 
+build_command = "pip install poetry && poetry build" # build dists
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
