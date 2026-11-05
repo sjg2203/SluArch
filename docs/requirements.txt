@@ -1,7 +1,2 @@
-myst-nb
-sphinx-autoapi
-sphinx-rtd-theme
-mne>=1.6.0
-numpy>=1.25.0
-pandas>=2.2.0
-scipy>=1.12.0
+# Run from the repository root with: python -m pip install -r docs/requirements.txt
+-e .[docs]
