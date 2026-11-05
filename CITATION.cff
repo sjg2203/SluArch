@@ -4,8 +4,8 @@
 cff-version: 1.2.0
 title: SlµArch
 message: >-
-  If you use this package, please cite as follows:  Guillot,
-  S.J. (2024). SlµArch. GitHub, Zenodo.
+  If you use this package, please cite as follows: Guillot,
+  S.J. (2026). SlµArch (v0.2.0). GitHub, Zenodo.
   https://doi.org/10.5281/zenodo.11204061
 type: software
 authors:
@@ -29,6 +29,5 @@ keywords:
   - Slow oscillations
   - K-complex
 license: Apache-2.0
-commit: 21b9ae3
-version: v0.1.0
-date-released: '2024-05-16'
+version: v0.2.0
+date-released: '2026-05-10'
