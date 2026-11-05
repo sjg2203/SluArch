@@ -14,7 +14,7 @@
 [SlµArch](https://github.com/sjg2203/SluArch) (Sleep MicroArchitecture): a Python package to analyse sleep microarchitecture.
 
 > [!NOTE]
-> All dependencies are listed in [requirements](docs/requirements.txt), Python 3.10+ optimised.
+> SlµArch supports Python 3.11–3.15. Runtime and optional dependencies are defined in [pyproject.toml](pyproject.toml).
 
 ## Citation [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11204061.svg)](https://doi.org/10.5281/zenodo.11204061)
 
@@ -22,7 +22,7 @@ If you use this package, please cite as follows:
 
 - Guillot,
   S.J.<a id="cy-effective-orcid-url" class="underline" href="https://orcid.org/0000-0002-1623-7091" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align: top"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width: 1em; margin-inline-start: 0.5em" alt="ORCID"/></a> (
-  2024). SlµArch. GitHub, Zenodo. https://doi.org/10.5281/zenodo.11204061
+  2026). SlµArch (v0.2.0). GitHub, Zenodo. https://doi.org/10.5281/zenodo.11204061
 
 ## Contribution [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/sjg2203/SluArch/issues)
 
