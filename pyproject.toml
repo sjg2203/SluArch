@@ -1,13 +1,13 @@
-[tool.poetry]
+[project]
 name = "sluarch"
-version = "0.1.0"
+version = "0.2.0"
 description = "SlµArch (Sleep MicroArchitecture): open-source Python package to analyse sleep microarchitecture."
 authors = [{ name = "Simon J. Guillot", email = "58807831+sjg2203@users.noreply.github.com" }]
 maintainers = [{ name = "Simon J. Guillot", email = "58807831+sjg2203@users.noreply.github.com" }]
 license = "Apache-2.0"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 classifiers = [
-	"Development Status :: 5 - Production/Stable",
+	"Development Status :: 3 - Alpha",
 	"Intended Audience :: Science/Research",
 	"License :: OSI Approved :: Apache Software License",
 	"Operating System :: Unix",
@@ -15,42 +15,50 @@ classifiers = [
 	"Operating System :: Microsoft :: Windows",
 	"Programming Language :: Python :: 3 :: Only",
 	"Programming Language :: Python :: 3",
-	"Programming Language :: Python :: 3.10",
 	"Programming Language :: Python :: 3.11",
 	"Programming Language :: Python :: 3.12",
 	"Programming Language :: Python :: 3.13",
 	"Programming Language :: Python :: 3.14",
+	"Programming Language :: Python :: 3.15",
 ]
 dependencies = [
 	"mne>=1.6.0",
 	"numpy>=1.25.0",
-	"pandas>=2.2.0",
 	"scipy>=1.12.0",
 ]
 readme = "README.md"
 
-[tool.poetry.urls]
+[project.urls]
 Homepage = "https://github.com/sjg2203/SluArch"
 Repository = "https://github.com/sjg2203/SluArch"
 Issues = "https://github.com/sjg2203/SluArch/issues"
 
-[tool.poetry.dependencies]
-python = ">=3.10"
+[project.optional-dependencies]
+test = ["pytest>=8"]
+lint = ["ruff>=0.11"]
+docs = ["myst-parser>=4", "sphinx>=8", "sphinx-autoapi>=3.6", "sphinx-rtd-theme>=3.0"]
+release = ["build>=1.2", "twine>=6"]
 
 [tool.semantic_release]
-version_toml = [
-	"pyproject.toml:tool.poetry.version",
-]                                                    # version location
-branch = "main"                                      # branch to make releases of
-changelog_file = "CHANGELOG.md"                      # changelog file
-build_command = "pip install poetry && poetry build" # build dists
+version_toml = ["pyproject.toml:project.version"]
+branch = "main"
+changelog_file = "CHANGELOG.md"
+build_command = "python -m pip install '.[release]' && python -m build"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core>=2.0.0"]
 build-backend = "poetry.core.masonry.api"
 
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
+
 [tool.ruff]
-line-length = 100
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
 
 [tool.ruff.format]
 quote-style = "single"
