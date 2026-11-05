@@ -1,12 +1,13 @@
 # Copyright 2026 Simon J. Guillot
 # SPDX-License-Identifier: Apache-2.0
 
+from itertools import pairwise
+from typing import Literal
+
 import mne
 import numpy as np
-from itertools import pairwise
-from scipy import ndimage,signal
+from scipy import ndimage, signal
 from scipy.integrate import simpson
-from typing import Literal
 
 __all__=['detect_kcomp','detect_slowosc','detect_spindles']
 
