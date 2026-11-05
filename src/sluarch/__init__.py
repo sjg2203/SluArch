@@ -1,10 +1,10 @@
-from importlib.metadata import version,PackageNotFoundError
+from importlib.metadata import PackageNotFoundError,version
 
 try:
 	__version__=version('sluarch')
 except PackageNotFoundError:
 	__version__='unknown'
 
-from .sluarch import spindles_abs,spindles_rel,slowosc,kcomp
+from .sluarch import detect_kcomp,detect_slowosc,detect_spindles
 
-__all__=['spindles_abs','spindles_rel','spindles_rms','spindles_cov','slowosc','kcomp','__version__']
+__all__=['detect_kcomp','detect_slowosc','detect_spindles']
