@@ -8,5 +8,6 @@
 changelog.md
 contributing.md
 conduct.md
+example.ipynb
 autoapi/index
 ```
