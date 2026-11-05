@@ -1,3 +1,13 @@
-
-src/.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+build/
+dist/
+*.egg-info/
+.coverage
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+docs/_build/
+docs/autoapi/
 .DS_Store
